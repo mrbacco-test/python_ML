@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block head %} {% endblock %}
+
+<div class="container">
+
+    {% block body %}
+    <main role="main" class="container">
+        <div class="starter-template">
+        <br>
+        <br>
+        <br>
+            <h1>ITEMS</h1>
+            <p class="lead">
+                {% for item in items %}
+                    <li class = "list-group-item"> <a href = "" {{item.name}}
+                {% endfor %}
+            </p>
+        </div>
+    </main>
+   
+    {% endblock %}
+
+</div>
